@@ -1,0 +1,12 @@
+combining projects
+
+(bool sent, bytes memory data) = _to[i].call.value(currentVal/length)("");
+line in ethSwap.sol is replaced with new code which is solidity version 
+of the eth-bsc-transfer.js script in project2
+
+Once this is done, the ethSwap contract wallet needs to be the admin for project 2 so that it can send bridge transaction with correct signature
+
+Last is the project 2 tokens should be the same as Dapp token in project1
+that way Ethswap can use its supply balance to interact with bridge.
+
+
